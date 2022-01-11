@@ -1,0 +1,131 @@
+{
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"emmet.includeLanguages": {
+		"smarty": "html",
+		"twig": "html",
+	},
+	"tabnine.experimentalAutoImports": true,
+	"prettier.tabWidth": 4,
+	"prettier.singleQuote": true,
+	"stylelint.configBasedir": "C:\\Users\\adrien\\AppData\\Roaming\\npm\\node_modules",
+	"stylelint.config": {
+		"plugins": [
+			"stylelint-scss",
+			"stylelint-order"
+		],
+		"extends": [
+			"stylelint-config-recess-order",
+			"stylelint-config-sass-guidelines"
+		],
+		"rules": {
+			"max-empty-lines": 2,
+			"indentation": "tab",
+			"at-rule-no-unknown": null,
+			"max-nesting-depth": 10,
+			"selector-max-compound-selectors": 10,
+			"rule-empty-line-before": [
+				"always-multi-line",
+				{
+					"severity": "warning",
+					"ignore": [
+						"after-comment",
+						"first-nested"
+					]
+				}
+			],
+			"selector-class-pattern": [
+				"^([a-z][a-z0-9]*)((-{1,2}|_{2})?[a-z0-9]+)*$",
+				{
+					"severity": "warning"
+				}
+			],
+			"selector-no-qualifying-type": [
+				true,
+				{
+					"ignore": [
+						"attribute"
+					]
+				}
+			],
+			"block-opening-brace-space-before": [
+				"always-multi-line",
+				{
+					"severity": "warning"
+				}
+			],
+			"declaration-block-no-duplicate-properties": true,
+			"color-named": null,
+			"color-no-invalid-hex": true,
+			"color-hex-length": [
+				"short",
+				{
+					"severity": "warning"
+				}
+			],
+			"scss/at-rule-no-unknown": true,
+			"scss/at-extend-no-missing-placeholder": [
+				true,
+				{
+					"severity": "warning"
+				}
+			],
+			"scss/dollar-variable-pattern": [
+				"^([a-z][a-z0-9]*)((-{1,2}|_{1,2})?[a-z0-9]+)*$",
+				{
+					"severity": "warning"
+				}
+			],
+			"order/properties-alphabetical-order": null,
+		},
+	},
+	"editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.fontLigatures": true,
+	"[css]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"stylelint.snippet": [
+		"css",
+		"less",
+		"postcss",
+		"scss",
+		"sass",
+		"vue"
+	],
+	"stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"sass",
+		"scss",
+		"vue"
+	],
+	"vetur.format.options.tabSize": 4,
+	"editor.insertSpaces": false,
+	"[html]": {
+		"editor.defaultFormatter": "remimarsal.prettier-now"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "remimarsal.prettier-now"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "remimarsal.prettier-now"
+	},
+	"github.copilot.enable": {
+		"*": false,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false
+	},
+	"[twig]": {
+		"editor.defaultFormatter": "remimarsal.prettier-now"
+	},
+}
